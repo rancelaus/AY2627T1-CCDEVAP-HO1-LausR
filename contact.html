@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>send me an email!</title>
+    <title>send me an email!!</title>
   </head>
 
   <body>
@@ -11,31 +11,43 @@
 
     <main>
       <section id="contact">
-        <h2>contact info</h2>
+        <p>you can send me an email at:</p>
 
-        <p>you can reach me through the following platforms:</p>
-
-        <table>
-          <tr>
-            <th>Platform</th>
-            <th>Link</th>
-          </tr>
-          <tr>
-            <td>Email</td>
-            <td>
-              <a href="mailto:rance_laus@dlsu.edu.ph">rance_laus@dlsu.edu.ph</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Instagram</td>
-            <td>
-              <a href="https://www.instagram.com/rancelaus_/">@rancelaus_</a>
-            </td>
-          </tr>
-        </table>
+        <a href="mailto:rance_laus@dlsu.edu.ph">rance_laus@dlsu.edu.ph</a>
       </section>
 
       <hr />
+
+      <section id="contact-form">
+        <h2>or just fill out this form!</h2>
+
+        <form
+          action="mailto:rance_laus@dlsu.edu.ph"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">who are u?</label>
+          <input type="text" id="name" name="name" required />
+
+          <br />
+
+          <label for="email">wat ur email?</label>
+          <input type="email" id="email" name="email" required />
+
+          <br />
+
+          <label for="message">wat do u want to say?</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <br />
+
+          <input type="submit" value="send" />
+        </form>
+      </section>
+
+      <hr />
+
+      <img src="media/dancing_cat.gif" alt="cute dancing cat" width="150" />
 
       <nav>
         <ul>
