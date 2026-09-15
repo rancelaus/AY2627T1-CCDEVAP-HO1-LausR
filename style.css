@@ -74,3 +74,32 @@ ul {
 li {
   margin-bottom: 10px;
 }
+
+img {
+  border: 2px solid #2b2b2b;
+  box-shadow: 4px 4px 0px #2b2b2b;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fff;
+  border: 2px solid #2b2b2b;
+}
+
+th,
+td {
+  border: 1px solid #2b2b2b;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f38181;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+tr {
+  background-color: #faf5ed;
+}
