@@ -38,3 +38,27 @@ a:hover {
   background-color: #ffe066;
   color: #000;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #e3e3e3;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 0px #000;
+}
+
+nav ul li a:hover {
+  background-color: #fce38a;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #000;
+}
